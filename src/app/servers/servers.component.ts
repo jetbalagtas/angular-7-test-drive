@@ -5,8 +5,8 @@ import { Component, OnInit } from '@angular/core';
   // selector: '[app-servers]',
   // selector: '.app-servers',
   template: `
-    <p>The Server Component</p>
-    <p>The Server Component</p>`,
+    <app-server></app-server>
+    <app-server></app-server>`,
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
